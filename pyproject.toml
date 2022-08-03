@@ -1,0 +1,22 @@
+[tool.black]
+line-length = 120
+exclude = """
+/(
+  | migrations
+  | venv
+)/
+"""
+
+[tool.isort]
+profile = "black"
+atomic = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-vv --durations=0 --ds=config.settings.test --reuse-db"
+norecursedirs = ["venv/*", ".git", "node_modules", "dtg"]
+python_files = ["tests.py", "test_*.py"]
+filterwarnings = [
+    "ignore::django.utils.deprecation.RemovedInDjango40Warning",
+    "ignore::django.utils.deprecation.RemovedInDjango41Warning"
+]
