@@ -76,7 +76,7 @@ django-constance[database]  # nosemgrep
 tablib==3.0.0
 
 django-waffle==2.2.1 #https://github.com/django-waffle/django-waffle
-django-tenants==3.3.2 #https://github.com/django-tenants/django-tenants
+django-tenants==3.4.4 #https://github.com/django-tenants/django-tenants
 tenant-schemas-celery==1.0.1 #https://github.com/maciej-gol/tenant-schemas-celery
 django-utils-six==2.0 #https://pypi.org/project/django-utils-six
 django-reversion==4.0.0 #https://github.com/etianen/django-reversion
