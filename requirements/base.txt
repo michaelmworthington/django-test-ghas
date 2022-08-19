@@ -1,4 +1,4 @@
-django==3.2.14
+django==3.2.15
 
 pytz==2021.3  # https://github.com/stub42/pytz
 python-slugify==5.0.2  # https://github.com/un33k/python-slugify
