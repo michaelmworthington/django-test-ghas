@@ -25,7 +25,7 @@ jobs:
       image: returntocorp/semgrep:0.108
     steps:
       # Fetch project source
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: semgrep --config auto --sarif --output=semgrep.sarif --metrics=off --error --severity=ERROR
 
       - name: Setup jq environment
