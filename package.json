@@ -26,7 +26,7 @@
         "css-loader": "^6.5.1",
         "idle-vue": "^2.0.5",
         "number-to-words": "^1.2.4",
-        "sass": "^1.38.2",
+        "sass": "^1.56.1",
         "sass-loader": "^12.3.0",
         "style-loader": "^3.3.1",
         "text-mask-addons": "^3.8.0",
